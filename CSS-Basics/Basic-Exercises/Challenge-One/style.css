@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(90, 192, 255);
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  margin-left: auto;
+  margin-bottom: auto;
+}
+
+li:first-letter {
+  font-size: 24px;
+}
