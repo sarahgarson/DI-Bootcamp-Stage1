@@ -57,11 +57,12 @@ header {
   color: whitesmoke;
   text-align: center;
   padding-bottom: 200px;
+  padding-top: 100px;
 }
 
 #biography > h3 {
   margin-bottom: 100px;
-  padding-top: 200px;
+  padding-top: 100px;
   text-align: center;
   font-size: 5em;
   text-shadow: 3px 2px 2px black;
@@ -106,4 +107,54 @@ header {
   color: rgb(67, 64, 64);
   font-size: 170%;
   text-shadow: none;
+}
+
+/*Tashs career and awards*/
+
+.awards {
+  margin-top: 500px;
+  background-color: rgb(46, 77, 93);
+}
+
+.awards > h3 {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 200px;
+  padding-bottom: 170px;
+  color: whitesmoke;
+  text-shadow: 1px 1px 1px grey;
+  text-decoration: underline;
+}
+
+.tash {
+  width: 450px;
+  height: 500px;
+}
+
+.pictures {
+  flex-direction: row;
+  padding-bottom: 200px;
+  text-align: center;
+}
+/* I added all the ps in the html basically with the class of 'content' so I would have to make all the changes one by one, and add a class to make small changes like color*/
+
+.box {
+  color: white;
+  font-size: 150%;
+  text-shadow: 1px 1px 1px grey;
+  width: 600px;
+  border: 15px solid rgb(28, 43, 65);
+  padding: 70px;
+  margin-left: 150px;
+  margin-bottom: 200px;
+  background-color: rgba(243, 98, 46, 0.611);
+  position: relative;
+  bottom: 100px;
+}
+
+.video {
+  float: right;
+
+  flex-direction: column;
+  margin-bottom: 100px;
 }
