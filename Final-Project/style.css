@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*for the nav part of the website*/
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 49px;
+  z-index: 1;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.links {
+  color: rgba(245, 245, 245, 0.823);
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px 70px;
+}
+
+/* header part of the website*/
+
+.container {
+  background-image: url("/Users/sarahgarson/Documents/DI_Bootcamp_Stage1/Final-Project/tash-sultana-tribute.jpeg");
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  color: whitesmoke;
+  position: relative;
+}
+
+.top-left {
+  position: absolute;
+  top: 28%;
+  left: 17%;
+  font-size: 10vw;
+  text-shadow: 3px 2px 2px black;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 34%;
+  right: 11%;
+  font-size: 10vw;
+  text-shadow: 3px 2px 2px black;
+}
+
+/* Biograpgy part of the website*/
+#biography {
+  background-image: url(/Users/sarahgarson/Documents/DI_Bootcamp_Stage1/Final-Project/pawel-czerwinski-APVgVX_yDDc-unsplash.jpg);
+  background-size: cover;
+  color: whitesmoke;
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+#biography > h3 {
+  margin-bottom: 100px;
+  padding-top: 200px;
+  text-align: center;
+  font-size: 5em;
+  text-shadow: 3px 2px 2px black;
+}
+
+.content {
+  font-size: 40px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 2px 2px 2px grey;
+}
+
+#biography > p {
+  padding: 30px 40px 200px;
+  color: rgb(50, 50, 50);
+  line-height: 90px;
+}
+
+/* for the Music part of the website*/
+
+.music {
+  margin-left: 70px;
+  margin-top: 200px;
+}
+
+.music > h3 {
+  font-size: 5em;
+  text-shadow: 2px 2px 2px grey;
+  color: rgb(67, 64, 64);
+  margin-bottom: 150px;
+  margin-left: 40px;
+}
+
+.music > img {
+  float: right;
+  margin-right: 90px;
+  border-radius: 20%;
+}
+
+.music > ul {
+  color: rgb(67, 64, 64);
+  font-size: 170%;
+  text-shadow: none;
+}
