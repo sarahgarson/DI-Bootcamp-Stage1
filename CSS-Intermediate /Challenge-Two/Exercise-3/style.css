@@ -1,0 +1,41 @@
+.box-top {
+  background: green;
+  width: 98%;
+  height: 200px;
+  margin-bottom: 30px;
+  border: 3px solid black;
+}
+.orange-box {
+  background-color: orange;
+  margin-bottom: 30px;
+  height: 200px;
+  width: 32%;
+  display: inline-block;
+  margin: 2px;
+  border: 3px solid black;
+}
+.red-box {
+  background-color: red;
+  margin-bottom: 30px;
+  height: 200px;
+  width: 32%;
+  display: inline-block;
+  margin: 2px;
+  border: 3px solid black;
+}
+.blue-box {
+  background-color: blue;
+  margin-bottom: 30px;
+  height: 200px;
+  width: 32%;
+  display: inline-block;
+  margin: 2px;
+  border: 3px solid black;
+}
+img {
+  margin-bottom: 30px;
+  height: 200px;
+  width: 32%;
+  display: inline-block;
+  margin: 2px;
+}
