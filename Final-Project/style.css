@@ -42,7 +42,7 @@ header {
 /* header part of the website*/
 
 .container {
-  background-image: url("/Users/sarahgarson/Documents/DI_Bootcamp_Stage1/Final-Project/tash-sultana-tribute.jpeg");
+  background-image: url("tash-sultana-tribute.jpeg");
   width: 100%;
   height: 100vh;
   background-position: center;
@@ -68,7 +68,7 @@ header {
 
 /* Biograpgy part of the website*/
 #biography {
-  background-image: url(/Users/sarahgarson/Documents/DI_Bootcamp_Stage1/Final-Project/pawel-czerwinski-APVgVX_yDDc-unsplash.jpg);
+  background-image: url(pawel-czerwinski-APVgVX_yDDc-unsplash.jpg);
 
   background-size: cover;
   color: whitesmoke;
